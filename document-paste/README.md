@@ -2,9 +2,10 @@
 
 This sample example shows how to use the document paste APIs. This api let's extension hook into VS Code's normal copy and paste operations in text documents.
 
+
 With this API you can:
 
-- On copy, write data to the clipboard. This includes writing metadata that the can be picked up on paste.
+- On copy, write data to the clipboard. This includes writing metadata that can be picked up on paste.
 
 - On paste, generate a custom edit that applies the paste. This can change the content being pasted or make more complex workspace edits, such as creating new files.
 
